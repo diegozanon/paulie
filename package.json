@@ -1,0 +1,17 @@
+{
+  "name": "paulie",
+  "version": "0.1.0",
+  "description": "Paulie is an AI-powered tool designed to help learning a foreign language through the shadowing technique. By taking a text input, Paulie leverages Amazon Polly to generate natural-sounding speech in the desired language. The resulting audio file includes strategically placed pauses, enabling learners to follow along and practice repeating phrases, improving pronunciation, fluency, and confidence. It also offers the option to generate a video, allowing users to listen, repeat, and read the text simultaneously for a more immersive learning experience.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Diego Zanon",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.716.0",
+    "@aws-sdk/credential-providers": "^3.716.0"
+  }
+}
